@@ -1,0 +1,16 @@
+def divide_numbers(a: int, b: int) -> None:
+    atempt = 0
+    try:
+        atempt = a/b
+        print(atempt)
+    except:
+        print("An error occurred!")
+
+    pass
+
+
+
+# do not modify below this line
+divide_numbers(10, 2)
+divide_numbers(12, 3)
+divide_numbers(2, 0)
